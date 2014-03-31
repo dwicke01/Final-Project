@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA26822A18E9255000E82E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA26822918E9255000E82E64 /* Foundation.framework */; };
+		FA26822C18E9255000E82E64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA26822B18E9255000E82E64 /* CoreGraphics.framework */; };
+		FA26822E18E9255000E82E64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA26822D18E9255000E82E64 /* UIKit.framework */; };
+		FA26823418E9255000E82E64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA26823218E9255000E82E64 /* InfoPlist.strings */; };
+		FA26823618E9255000E82E64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26823518E9255000E82E64 /* main.m */; };
+		FA26823A18E9255000E82E64 /* NYUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26823918E9255000E82E64 /* NYUAppDelegate.m */; };
+		FA26823D18E9255100E82E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA26823B18E9255100E82E64 /* Main.storyboard */; };
+		FA26824018E9255100E82E64 /* NYUFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26823F18E9255100E82E64 /* NYUFirstViewController.m */; };
+		FA26824318E9255100E82E64 /* NYUSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26824218E9255100E82E64 /* NYUSecondViewController.m */; };
+		FA26824518E9255100E82E64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA26824418E9255100E82E64 /* Images.xcassets */; };
+		FA26824C18E9255100E82E64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA26824B18E9255100E82E64 /* XCTest.framework */; };
+		FA26824D18E9255100E82E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA26822918E9255000E82E64 /* Foundation.framework */; };
+		FA26824E18E9255100E82E64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA26822D18E9255000E82E64 /* UIKit.framework */; };
+		FA26825618E9255100E82E64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA26825418E9255100E82E64 /* InfoPlist.strings */; };
+		FA26825818E9255100E82E64 /* Dream_CatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26825718E9255100E82E64 /* Dream_CatcherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA26824F18E9255100E82E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA26821E18E9255000E82E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA26822518E9255000E82E64;
+			remoteInfo = "Dream Catcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA26822618E9255000E82E64 /* Dream Catcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream Catcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA26822918E9255000E82E64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA26822B18E9255000E82E64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA26822D18E9255000E82E64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA26823118E9255000E82E64 /* Dream Catcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dream Catcher-Info.plist"; sourceTree = "<group>"; };
+		FA26823318E9255000E82E64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA26823518E9255000E82E64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA26823718E9255000E82E64 /* Dream Catcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dream Catcher-Prefix.pch"; sourceTree = "<group>"; };
+		FA26823818E9255000E82E64 /* NYUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYUAppDelegate.h; sourceTree = "<group>"; };
+		FA26823918E9255000E82E64 /* NYUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYUAppDelegate.m; sourceTree = "<group>"; };
+		FA26823C18E9255100E82E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA26823E18E9255100E82E64 /* NYUFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYUFirstViewController.h; sourceTree = "<group>"; };
+		FA26823F18E9255100E82E64 /* NYUFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYUFirstViewController.m; sourceTree = "<group>"; };
+		FA26824118E9255100E82E64 /* NYUSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYUSecondViewController.h; sourceTree = "<group>"; };
+		FA26824218E9255100E82E64 /* NYUSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYUSecondViewController.m; sourceTree = "<group>"; };
+		FA26824418E9255100E82E64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA26824A18E9255100E82E64 /* Dream CatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dream CatcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA26824B18E9255100E82E64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA26825318E9255100E82E64 /* Dream CatcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dream CatcherTests-Info.plist"; sourceTree = "<group>"; };
+		FA26825518E9255100E82E64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA26825718E9255100E82E64 /* Dream_CatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dream_CatcherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA26822318E9255000E82E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26822C18E9255000E82E64 /* CoreGraphics.framework in Frameworks */,
+				FA26822E18E9255000E82E64 /* UIKit.framework in Frameworks */,
+				FA26822A18E9255000E82E64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA26824718E9255100E82E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26824C18E9255100E82E64 /* XCTest.framework in Frameworks */,
+				FA26824E18E9255100E82E64 /* UIKit.framework in Frameworks */,
+				FA26824D18E9255100E82E64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA26821D18E9255000E82E64 = {
+			isa = PBXGroup;
+			children = (
+				FA26822F18E9255000E82E64 /* Dream Catcher */,
+				FA26825118E9255100E82E64 /* Dream CatcherTests */,
+				FA26822818E9255000E82E64 /* Frameworks */,
+				FA26822718E9255000E82E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA26822718E9255000E82E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA26822618E9255000E82E64 /* Dream Catcher.app */,
+				FA26824A18E9255100E82E64 /* Dream CatcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA26822818E9255000E82E64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA26822918E9255000E82E64 /* Foundation.framework */,
+				FA26822B18E9255000E82E64 /* CoreGraphics.framework */,
+				FA26822D18E9255000E82E64 /* UIKit.framework */,
+				FA26824B18E9255100E82E64 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA26822F18E9255000E82E64 /* Dream Catcher */ = {
+			isa = PBXGroup;
+			children = (
+				FA26823818E9255000E82E64 /* NYUAppDelegate.h */,
+				FA26823918E9255000E82E64 /* NYUAppDelegate.m */,
+				FA26823B18E9255100E82E64 /* Main.storyboard */,
+				FA26823E18E9255100E82E64 /* NYUFirstViewController.h */,
+				FA26823F18E9255100E82E64 /* NYUFirstViewController.m */,
+				FA26824118E9255100E82E64 /* NYUSecondViewController.h */,
+				FA26824218E9255100E82E64 /* NYUSecondViewController.m */,
+				FA26824418E9255100E82E64 /* Images.xcassets */,
+				FA26823018E9255000E82E64 /* Supporting Files */,
+			);
+			path = "Dream Catcher";
+			sourceTree = "<group>";
+		};
+		FA26823018E9255000E82E64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA26823118E9255000E82E64 /* Dream Catcher-Info.plist */,
+				FA26823218E9255000E82E64 /* InfoPlist.strings */,
+				FA26823518E9255000E82E64 /* main.m */,
+				FA26823718E9255000E82E64 /* Dream Catcher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA26825118E9255100E82E64 /* Dream CatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA26825718E9255100E82E64 /* Dream_CatcherTests.m */,
+				FA26825218E9255100E82E64 /* Supporting Files */,
+			);
+			path = "Dream CatcherTests";
+			sourceTree = "<group>";
+		};
+		FA26825218E9255100E82E64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA26825318E9255100E82E64 /* Dream CatcherTests-Info.plist */,
+				FA26825418E9255100E82E64 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA26822518E9255000E82E64 /* Dream Catcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA26825B18E9255100E82E64 /* Build configuration list for PBXNativeTarget "Dream Catcher" */;
+			buildPhases = (
+				FA26822218E9255000E82E64 /* Sources */,
+				FA26822318E9255000E82E64 /* Frameworks */,
+				FA26822418E9255000E82E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dream Catcher";
+			productName = "Dream Catcher";
+			productReference = FA26822618E9255000E82E64 /* Dream Catcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA26824918E9255100E82E64 /* Dream CatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA26825E18E9255100E82E64 /* Build configuration list for PBXNativeTarget "Dream CatcherTests" */;
+			buildPhases = (
+				FA26824618E9255100E82E64 /* Sources */,
+				FA26824718E9255100E82E64 /* Frameworks */,
+				FA26824818E9255100E82E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA26825018E9255100E82E64 /* PBXTargetDependency */,
+			);
+			name = "Dream CatcherTests";
+			productName = "Dream CatcherTests";
+			productReference = FA26824A18E9255100E82E64 /* Dream CatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA26821E18E9255000E82E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NYU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniel Wickes";
+				TargetAttributes = {
+					FA26824918E9255100E82E64 = {
+						TestTargetID = FA26822518E9255000E82E64;
+					};
+				};
+			};
+			buildConfigurationList = FA26822118E9255000E82E64 /* Build configuration list for PBXProject "Dream Catcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA26821D18E9255000E82E64;
+			productRefGroup = FA26822718E9255000E82E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA26822518E9255000E82E64 /* Dream Catcher */,
+				FA26824918E9255100E82E64 /* Dream CatcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA26822418E9255000E82E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26824518E9255100E82E64 /* Images.xcassets in Resources */,
+				FA26823418E9255000E82E64 /* InfoPlist.strings in Resources */,
+				FA26823D18E9255100E82E64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA26824818E9255100E82E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26825618E9255100E82E64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA26822218E9255000E82E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26823618E9255000E82E64 /* main.m in Sources */,
+				FA26824018E9255100E82E64 /* NYUFirstViewController.m in Sources */,
+				FA26823A18E9255000E82E64 /* NYUAppDelegate.m in Sources */,
+				FA26824318E9255100E82E64 /* NYUSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA26824618E9255100E82E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26825818E9255100E82E64 /* Dream_CatcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA26825018E9255100E82E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA26822518E9255000E82E64 /* Dream Catcher */;
+			targetProxy = FA26824F18E9255100E82E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA26823218E9255000E82E64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA26823318E9255000E82E64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA26823B18E9255100E82E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA26823C18E9255100E82E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA26825418E9255100E82E64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA26825518E9255100E82E64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA26825918E9255100E82E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA26825A18E9255100E82E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA26825C18E9255100E82E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dream Catcher/Dream Catcher-Prefix.pch";
+				INFOPLIST_FILE = "Dream Catcher/Dream Catcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA26825D18E9255100E82E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dream Catcher/Dream Catcher-Prefix.pch";
+				INFOPLIST_FILE = "Dream Catcher/Dream Catcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA26825F18E9255100E82E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dream Catcher.app/Dream Catcher";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dream Catcher/Dream Catcher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dream CatcherTests/Dream CatcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA26826018E9255100E82E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dream Catcher.app/Dream Catcher";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dream Catcher/Dream Catcher-Prefix.pch";
+				INFOPLIST_FILE = "Dream CatcherTests/Dream CatcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA26822118E9255000E82E64 /* Build configuration list for PBXProject "Dream Catcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA26825918E9255100E82E64 /* Debug */,
+				FA26825A18E9255100E82E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA26825B18E9255100E82E64 /* Build configuration list for PBXNativeTarget "Dream Catcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA26825C18E9255100E82E64 /* Debug */,
+				FA26825D18E9255100E82E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA26825E18E9255100E82E64 /* Build configuration list for PBXNativeTarget "Dream CatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA26825F18E9255100E82E64 /* Debug */,
+				FA26826018E9255100E82E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA26821E18E9255000E82E64 /* Project object */;
+}
