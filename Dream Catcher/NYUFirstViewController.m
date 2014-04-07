@@ -7,12 +7,17 @@
 //
 
 #import "NYUFirstViewController.h"
+#import "CorePlot-CocoaTouch.h"
 
 @interface NYUFirstViewController ()
 
 @end
 
+
 @implementation NYUFirstViewController
+
+- (IBAction)setVolume:(id)sender {
+}
 
 - (void)viewDidLoad
 {

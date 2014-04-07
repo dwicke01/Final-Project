@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA25002E18EF36D8001B8621 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA25002D18EF36D7001B8621 /* AudioToolbox.framework */; };
+		FA25003518EF68C5001B8621 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA25003418EF68C5001B8621 /* CoreMedia.framework */; };
+		FA25003718EF68D7001B8621 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA25003618EF68D7001B8621 /* CoreVideo.framework */; };
+		FA25004318F04D15001B8621 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA25003218EF6692001B8621 /* AVFoundation.framework */; };
 		FA26822A18E9255000E82E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA26822918E9255000E82E64 /* Foundation.framework */; };
 		FA26822C18E9255000E82E64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA26822B18E9255000E82E64 /* CoreGraphics.framework */; };
 		FA26822E18E9255000E82E64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA26822D18E9255000E82E64 /* UIKit.framework */; };
@@ -22,6 +26,9 @@
 		FA26824E18E9255100E82E64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA26822D18E9255000E82E64 /* UIKit.framework */; };
 		FA26825618E9255100E82E64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA26825418E9255100E82E64 /* InfoPlist.strings */; };
 		FA26825818E9255100E82E64 /* Dream_CatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26825718E9255100E82E64 /* Dream_CatcherTests.m */; };
+		FA4BA60118F3178800200A53 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4BA60018F3178800200A53 /* Accelerate.framework */; };
+		FA4BA60318F3179100200A53 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4BA60218F3179100200A53 /* QuartzCore.framework */; };
+		FAEA118918F25F53005C4D53 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEA118618F25D64005C4D53 /* libCorePlot-CocoaTouch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +39,33 @@
 			remoteGlobalIDString = FA26822518E9255000E82E64;
 			remoteInfo = "Dream Catcher";
 		};
+		FAEA118518F25D64005C4D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEA117F18F25D63005C4D53 /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9B83470FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+		FAEA118718F25EFF005C4D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEA117F18F25D63005C4D53 /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9B83460FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E939A75958BA41A7B2375C69 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FA25002D18EF36D7001B8621 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FA25003218EF6692001B8621 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FA25003418EF68C5001B8621 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FA25003618EF68D7001B8621 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		FA25003818EF68DC001B8621 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		FA25003A18F04B8A001B8621 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FA25003C18F04B9E001B8621 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FA25003E18F04BC8001B8621 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FA25004018F04BCF001B8621 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FA26822618E9255000E82E64 /* Dream Catcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream Catcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA26822918E9255000E82E64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA26822B18E9255000E82E64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +87,9 @@
 		FA26825318E9255100E82E64 /* Dream CatcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dream CatcherTests-Info.plist"; sourceTree = "<group>"; };
 		FA26825518E9255100E82E64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA26825718E9255100E82E64 /* Dream_CatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dream_CatcherTests.m; sourceTree = "<group>"; };
+		FA4BA60018F3178800200A53 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FA4BA60218F3179100200A53 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FAEA117F18F25D63005C4D53 /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "../../Downloads/CorePlot_1.5.1/Source/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +97,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4BA60318F3179100200A53 /* QuartzCore.framework in Frameworks */,
+				FA4BA60118F3178800200A53 /* Accelerate.framework in Frameworks */,
+				FAEA118918F25F53005C4D53 /* libCorePlot-CocoaTouch.a in Frameworks */,
+				FA25004318F04D15001B8621 /* AVFoundation.framework in Frameworks */,
+				FA25003718EF68D7001B8621 /* CoreVideo.framework in Frameworks */,
+				FA25003518EF68C5001B8621 /* CoreMedia.framework in Frameworks */,
+				FA25002E18EF36D8001B8621 /* AudioToolbox.framework in Frameworks */,
 				FA26822C18E9255000E82E64 /* CoreGraphics.framework in Frameworks */,
 				FA26822E18E9255000E82E64 /* UIKit.framework in Frameworks */,
 				FA26822A18E9255000E82E64 /* Foundation.framework in Frameworks */,
@@ -85,10 +126,12 @@
 		FA26821D18E9255000E82E64 = {
 			isa = PBXGroup;
 			children = (
+				FAEA117F18F25D63005C4D53 /* CorePlot-CocoaTouch.xcodeproj */,
 				FA26822F18E9255000E82E64 /* Dream Catcher */,
 				FA26825118E9255100E82E64 /* Dream CatcherTests */,
 				FA26822818E9255000E82E64 /* Frameworks */,
 				FA26822718E9255000E82E64 /* Products */,
+				E939A75958BA41A7B2375C69 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +147,17 @@
 		FA26822818E9255000E82E64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA4BA60218F3179100200A53 /* QuartzCore.framework */,
+				FA4BA60018F3178800200A53 /* Accelerate.framework */,
+				FA25004018F04BCF001B8621 /* Security.framework */,
+				FA25003E18F04BC8001B8621 /* SystemConfiguration.framework */,
+				FA25003C18F04B9E001B8621 /* MediaPlayer.framework */,
+				FA25003A18F04B8A001B8621 /* CFNetwork.framework */,
+				FA25003818EF68DC001B8621 /* CoreAudio.framework */,
+				FA25003618EF68D7001B8621 /* CoreVideo.framework */,
+				FA25003418EF68C5001B8621 /* CoreMedia.framework */,
+				FA25003218EF6692001B8621 /* AVFoundation.framework */,
+				FA25002D18EF36D7001B8621 /* AudioToolbox.framework */,
 				FA26822918E9255000E82E64 /* Foundation.framework */,
 				FA26822B18E9255000E82E64 /* CoreGraphics.framework */,
 				FA26822D18E9255000E82E64 /* UIKit.framework */,
@@ -157,6 +211,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FAEA118018F25D63005C4D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA118618F25D64005C4D53 /* libCorePlot-CocoaTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,13 +226,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA26825B18E9255100E82E64 /* Build configuration list for PBXNativeTarget "Dream Catcher" */;
 			buildPhases = (
+				0CBB6949E8704E948D07CE8C /* Check Pods Manifest.lock */,
 				FA26822218E9255000E82E64 /* Sources */,
 				FA26822318E9255000E82E64 /* Frameworks */,
 				FA26822418E9255000E82E64 /* Resources */,
+				4561D3F910C042A099FAE8AF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FAEA118818F25EFF005C4D53 /* PBXTargetDependency */,
 			);
 			name = "Dream Catcher";
 			productName = "Dream Catcher";
@@ -205,6 +270,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Daniel Wickes";
 				TargetAttributes = {
+					FA26822518E9255000E82E64 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
 					FA26824918E9255100E82E64 = {
 						TestTargetID = FA26822518E9255000E82E64;
 					};
@@ -221,6 +293,12 @@
 			mainGroup = FA26821D18E9255000E82E64;
 			productRefGroup = FA26822718E9255000E82E64 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FAEA118018F25D63005C4D53 /* Products */;
+					ProjectRef = FAEA117F18F25D63005C4D53 /* CorePlot-CocoaTouch.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FA26822518E9255000E82E64 /* Dream Catcher */,
@@ -228,6 +306,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FAEA118618F25D64005C4D53 /* libCorePlot-CocoaTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCorePlot-CocoaTouch.a";
+			remoteRef = FAEA118518F25D64005C4D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FA26822418E9255000E82E64 /* Resources */ = {
@@ -249,6 +337,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CBB6949E8704E948D07CE8C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4561D3F910C042A099FAE8AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA26822218E9255000E82E64 /* Sources */ = {
@@ -277,6 +398,11 @@
 			isa = PBXTargetDependency;
 			target = FA26822518E9255000E82E64 /* Dream Catcher */;
 			targetProxy = FA26824F18E9255100E82E64 /* PBXContainerItemProxy */;
+		};
+		FAEA118818F25EFF005C4D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CorePlot-CocoaTouch";
+			targetProxy = FAEA118718F25EFF005C4D53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -373,6 +499,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -380,11 +507,21 @@
 		};
 		FA26825C18E9255100E82E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E939A75958BA41A7B2375C69 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dream Catcher/Dream Catcher-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/BEMSimpleLineGraph\"",
+					"\"/Users/danielwickes/Downloads/CorePlot_1.5.1/Binaries/iOS/CorePlotHeaders\"/**",
+				);
 				INFOPLIST_FILE = "Dream Catcher/Dream Catcher-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -393,11 +530,21 @@
 		};
 		FA26825D18E9255100E82E64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E939A75958BA41A7B2375C69 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dream Catcher/Dream Catcher-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/BEMSimpleLineGraph\"",
+					"\"/Users/danielwickes/Downloads/CorePlot_1.5.1/Binaries/iOS/CorePlotHeaders\"/**",
+				);
 				INFOPLIST_FILE = "Dream Catcher/Dream Catcher-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -463,6 +610,7 @@
 				FA26825D18E9255100E82E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA26825E18E9255100E82E64 /* Build configuration list for PBXNativeTarget "Dream CatcherTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +619,7 @@
 				FA26826018E9255100E82E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
